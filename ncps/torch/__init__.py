@@ -21,5 +21,13 @@ from .cfc_cell import CfCCell
 from .wired_cfc_cell import WiredCfCCell
 from .cfc import CfC
 from .ltc import LTC
+from .ternary import TernaryLinear, ternary_quantize
+from .ternary_cfc_cell import TernaryCfCCell
+from .ternary_wired_cfc_cell import TernaryWiredCfCCell
+from .ternary_cfc import TernaryCfC
 
-__all__ = ["CfC", "CfCCell", "LTC", "LTCCell", "WiredCfCCell"]
+__all__ = [
+    "CfC", "CfCCell", "LTC", "LTCCell", "WiredCfCCell",
+    "TernaryCfC", "TernaryCfCCell", "TernaryWiredCfCCell",
+    "TernaryLinear", "ternary_quantize",
+]
